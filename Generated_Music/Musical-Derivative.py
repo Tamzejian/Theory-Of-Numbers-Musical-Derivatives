@@ -38,7 +38,7 @@ def PrimeList_5(N):
 		n=n+1
 	return(L)
 
-Carrure = 16
+Carrure = 132 #Number of measures is obtained by dividing by 2
 L=PrimeList_5(4*Carrure)
 #print(L)
 
@@ -128,7 +128,7 @@ for L4a in L4:
 	
 	s=' '.join(L4_mus)
 	# we need to instert \8 after the first element
-	s = s.replace(' ', '8 ', 1)
+	s = s.replace(' ', '8 ') #put eighths everywhere
 	L4_to_file.append(s)
 
 """
